@@ -1,0 +1,353 @@
+<!-- ======================================================== -->
+
+<section class="first_sec">
+    <div class="container img-container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="find_best">Find Your Best Cooking Recipes <span class="highlight">Here!</span></h1>
+                <div class="buttons">
+                    <button class="btn">Learn More</button>
+                    <button class="btn demo">Watch Demo</button>
+                    <div class="features">
+                        <div class="feature">
+                            <img src="recipes.png" alt="Icon1">
+                            <h3>Over 100+</h3>
+                            <p>recipes from around the world</p>
+                        </div>
+                        <div class="feature">
+                            <img src="cooking_tips.png" alt="Icon2">
+                            <h3>Cooking tips</h3>
+                            <p>to help you improve your cooking skills</p>
+                        </div>
+                        <div class="feature">
+                            <img src="cmmunity.png" alt="Icon3">
+                            <h3>Communities</h3>
+                            <p>to share and get closer with people</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="app.png" alt="Icon3">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-light-gray">
+
+    <div class="row">
+        <div class="col-12">
+            <div class="hr-container1">
+                <hr class="orange-hr">
+                <span class="hr-text">How it Works</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center text-center">
+        <div class="col-6">
+            <h2>The <span class="span-color">Seamless</span></h2>
+        </div>
+    </div>
+
+    <div class="row justify-content-center text-center">
+        <div class="col-6">
+            <h1><span class="span-color">Experience</span> of Our APP</h1>
+        </div>
+    </div>
+
+    <div class="container img-container">
+        <div class="row">
+
+            <div class="col-md-6">
+                <img src="women.png">
+            </div>
+
+            <div class="col-md-6 contact-margin">
+
+                <div class="d-flex align-items-start mb-4  div-padding">
+                    <div class="me-3">
+                        <div class="bg-dark text-white rounded-circle d-flex align-items-center justify-content-center"
+                            style="width: 48px; height: 48px;">
+                            <i class="bi bi-person-fill"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <a routerLink="/signup" class="text-decoration-none">
+                            <h5 class="fw-bold mb-1 text-dark">Sign Up</h5>
+                        </a>
+                        <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
+                            eligendi atque molestias magnam a illo ipsum tenetur fugit veritatis! Eveniet.</p>
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-start mb-4 div-padding">
+                    <div class="me-3">
+                        <div class="circle-border d-flex align-items-center justify-content-center">
+                            <i class="bi bi-search circle-icon"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <a routerLink="/recipes" class="text-decoration-none">
+                            <h5 class="fw-bold mb-1 text-dark">Browse and Explore Recipes</h5>
+                        </a>
+                        <p class="text-muted mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem enim
+                            exercitationem hic asperiores accusantium? Voluptatum velit sit voluptatem </p>
+                    </div>
+                </div>
+
+
+                <div class="d-flex align-items-start mb-4 div-padding">
+                    <div class="me-3">
+                        <div class="circle-border d-flex align-items-center justify-content-center">
+                            <i class="bi bi-journal-text circle-icon"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <a routerLink="/instructions" class="text-decoration-none">
+                            <h5 class="fw-bold mb-1 text-dark">Cooking Instructions</h5>
+                        </a>
+                        <p class="text-muted mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vitae
+                            dolore veritatis accusamus quae hic qui autem odit vero in?</p>
+                    </div>
+                </div>
+
+
+                <div class="d-flex align-items-start div-padding">
+                    <div class="me-3">
+                        <div class="circle-border d-flex align-items-center justify-content-center">
+                            <i class="bi bi-share circle-icon"></i>
+                        </div>
+                    </div>
+                    <div class="div-padding">
+                        <a routerLink="/share" class="text-decoration-none">
+                            <h5 class="fw-bold mb-1 text-dark">Save and Share</h5>
+                        </a>
+                        <p class="text-muted mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Praesentium, iusto quis hic culpa modi omnis corporis sit libero sapiente veritatis!</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="container bg-white py-3">
+
+    <div class="hr-container2">
+        <hr class="orange-hr">
+        <span class="hr-text">How it Works</span>
+    </div>
+
+
+    <div class="row">
+        <div class="col-12">
+            <h2>Browse Our <span class="span-color">Best</span></h2>
+        </div>
+    </div>
+
+    <div class="row align-items-center">
+        <div class="col-6">
+            <h2><span class="text-orange">Food Recipes</span></h2>
+        </div>
+        <div class="col-6 text-end">
+            <a [routerLink]="['/recipes']" class="text-orange fw-bold">See all recipes</a>
+        </div>
+    </div>
+
+</div>
+
+<div class="orange-section container">
+</div>
+
+
+
+<!-- Filter Section -->
+<div class="overlap-wrapper container">
+    <div class="custom-filter-box px-4 py-3">
+        <div class="row align-items-center gy-3">
+            <!-- Categories Dropdown -->
+            <div class="col-md-3">
+                <label class="fw-normal text-muted">Categories</label>
+                <select class="form-select select-no-border" [(ngModel)]="selectedCategory">
+                    <option>🍽️ Pizza</option>
+                    <option>Burgers</option>
+                    <option>Pasta</option>
+                    <option>Salads</option>
+                    <option>Desserts</option>
+                </select>
+            </div>
+
+            <!-- Difficulty Level Dropdown -->
+            <div class="col-md-3">
+                <label class="fw-normal text-muted">Difficulty Level</label>
+                <select class="form-select select-no-border" [(ngModel)]="selectedDifficulty">
+                    <option>Easy</option>
+                    <option>Medium</option>
+                    <option>Hard</option>
+                </select>
+            </div>
+
+            <!-- Preparation Time Dropdown -->
+            <div class="col-md-3">
+                <label class="fw-normal text-muted">Preparation Time (Minutes)</label>
+                <select class="form-select select-no-border" [(ngModel)]="selectedTime">
+                    <option>⏱️ 15:00 - 30:00</option>
+                    <option>20:00 - 45:00</option>
+                    <option>30:00 - 45:00</option>
+                    <option>45:00+</option>
+                </select>
+            </div>
+
+            <!-- Search Button -->
+            <div class="col-md-3 text-md-end">
+                <button class="btn btn-orange mt-2 mt-md-4" (click)="filterRecipes()">
+                    <i class="bi bi-search me-1"></i> Search
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Recipe Cards Section -->
+<section class="scrollable-wrapper">
+    <div class="container">
+        <h2>Our <span class="span-color">Recipes</span></h2>
+        <div class="scrollable-container">
+
+            <button class="scroll-btn left" (click)="scroll('left')">❮</button>
+
+            <!-- Filtered Recipe Cards -->
+            <div class="recipe-card-wrapper" *ngFor="let recipe of filteredRecipes">
+                <div class="recipe-card">
+                    <div class="position-relative">
+                        <img [src]="recipe.image" class="img-fluid card-img" [alt]="recipe.title">
+                        <div class="rating-badge">{{ recipe.rating }} ({{ recipe.reviews }}+ Review)</div>
+                    </div>
+                    <div class="p-3">
+                        <h5 class="fw-bold mb-2">{{ recipe.title }}</h5>
+                        <p class="text-muted mb-0">
+                            <i class="bi bi-clock"></i> {{ recipe.time }} min • {{ recipe.difficulty }} • by {{
+                            recipe.author }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="scroll-btn right" (click)="scroll('right')">❯</button>
+        </div>
+    </div>
+</section>
+
+
+<!-- ================================================ i will return again =================================================== -->
+
+<section class="features-section">
+    <div class="features-header">
+        <div class="left-text">
+            <p class="sub"><span>— </span> Best Features</p>
+            <h1><span class="highlight">Key Features</span> of<br>Recipe Mobile App</h1>
+        </div>
+        <div class="right-text">
+            <p class="feature-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+        </div>
+    </div>
+
+    <div class="features-cards">
+        <div class="card fade-in" tabindex="0">
+            <h2>Explore Recipes and Chefs</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            <img class="img" src="mobile1.png" alt="Explore Recipes" />
+        </div>
+        <div class="card fade-in delay-1" tabindex="0">
+            <img src="mobile2.png" alt="Join Chef" />
+            <h2>Join the Chef in Real-time!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        </div>
+        <div class="card fade-in delay-2" tabindex="0">
+            <h2>Chat and Call with Chef</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            <img class="img" src="mobile3.png" alt="Chat with Chef" />
+        </div>
+    </div>
+</section>
+<!-- ============================================= Any Questions   ============================================ -->
+
+<!-- FAQ Section -->
+<div class="container  Fab-margin">
+  <section class="faq-section">
+    <h2 class="faq-title">Questions? Look here.</h2>
+  
+    <!-- FAQ Item 1 -->
+    <div class="faq-item" [ngClass]="{'active': isActive[0]}" (click)="toggleFAQ(0)">
+      <div class="faq-question">
+        <span class="faq-question-text">Is the app suitable for beginners?</span>
+        <span class="faq-toggle">{{ isActive[0] ? '-' : '+' }}</span>
+      </div>
+      <div *ngIf="isActive[0]" class="faq-answer">
+        <p>Yes, the app is designed to be user-friendly and suitable for beginners. It provides easy-to-follow recipes and step-by-step guides for cooking.</p>
+      </div>
+    </div>
+  
+    <!-- FAQ Item 2 -->
+    <div class="faq-item" [ngClass]="{'active': isActive[1]}" (click)="toggleFAQ(1)">
+      <div class="faq-question">
+        <span class="faq-question-text">Can I save and organize my favorite recipes?</span>
+        <span class="faq-toggle">{{ isActive[1] ? '-' : '+' }}</span>
+      </div>
+      <div *ngIf="isActive[1]" class="faq-answer">
+        <p>Absolutely! You can save your favorite recipes to your profile and organize them into collections for easy access.</p>
+      </div>
+    </div>
+  
+    <!-- FAQ Item 3 -->
+    <div class="faq-item" [ngClass]="{'active': isActive[2]}" (click)="toggleFAQ(2)">
+      <div class="faq-question">
+        <span class="faq-question-text">How often are new recipes added?</span>
+        <span class="faq-toggle">{{ isActive[2] ? '-' : '+' }}</span>
+      </div>
+      <div *ngIf="isActive[2]" class="faq-answer">
+        <p>New recipes are added weekly, so you can discover fresh and exciting meals to try regularly.</p>
+      </div>
+    </div>
+    <!-- FAQ Item 3 -->
+    <div class="faq-item" [ngClass]="{'active': isActive[3]}" (click)="toggleFAQ(3)">
+      <div class="faq-question">
+        <span class="faq-question-text">How often are new recipes added?</span>
+        <span class="faq-toggle">{{ isActive[3] ? '-' : '+' }}</span>
+      </div>
+      <div *ngIf="isActive[3]" class="faq-answer">
+        <p> To create a profile, simply sign up with your email address or use social media login options. Once logged in, you can customize your profile and start exploring recipes.</p>
+      </div>
+    </div>
+    <div class="faq-item" [ngClass]="{'active': isActive[4]}" (click)="toggleFAQ(4)">
+      <div class="faq-question">
+        <span class="faq-question-text">How often are new recipes added?</span>
+        <span class="faq-toggle">{{ isActive[4] ? '-' : '+' }}</span>
+      </div>
+      <div *ngIf="isActive[4]" class="faq-answer">
+        <p>Yes, most ingredients are easily accessible at local grocery stores. The app also provides alternatives if you have difficulty finding a specific ingredient.</p>
+      </div>
+    </div>
+    <div class="faq-item" [ngClass]="{'active': isActive[5]}" (click)="toggleFAQ(5)">
+      <div class="faq-question">
+        <span class="faq-question-text">How often are new recipes added?</span>
+        <span class="faq-toggle">{{ isActive[5] ? '-' : '+' }}</span>
+      </div>
+      <div *ngIf="isActive[5]" class="faq-answer">
+        <p>Yes, the app is available for download on both iOS and Android platforms through the App Store and Google Play Store.</p>
+      </div>
+    </div>
+    
+
+    
+  </section>
+</div>
+
+
+

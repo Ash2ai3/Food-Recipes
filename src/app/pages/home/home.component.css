@@ -1,0 +1,915 @@
+
+.highlight{
+    color: #ff7b00;
+}
+.buttons {
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff7b00;
+    /* Orange color */
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.demo {
+    background-color: transparent;
+    color: #ff7b00;
+    border: 2px solid #ff7b00;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.feature {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.image-container {
+    margin-top: 30px;
+}
+
+
+
+img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.buttons{
+    margin-top: 90px;
+}
+.find_best{
+    margin-top: 50px;
+} 
+/* ================================================================== */
+.bg-light-gray {
+    background-color: #f4f2f2;
+    color: #000;
+    padding-top: 40px;
+}
+
+.hr-container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.orange-hr {
+    border: none;
+    border-top: 3px solid #ff7b00;
+    width: 20px;
+    margin: 0;
+    background: none;
+}
+
+.hr-text {
+    font-size: 18px;
+    color: rgb(9, 6, 2);
+    font-weight: bold;
+}
+
+.span-color {
+    color: #ff7b00;
+    font-weight: bold;
+}
+
+h1,
+h2 {
+    font-weight: bold;
+}
+
+.img-container {
+    padding-top: 40px;
+
+}
+
+.div-padding {
+    padding-bottom: 30px;
+}
+
+.contact-margin {
+    margin-top: 30px;
+
+}
+
+.circle-border {
+    width: 48px;
+    height: 48px;
+    border: 2px solid #ff7b00;
+    border-radius: 50%;
+}
+
+.circle-icon {
+    color: #ff7b00;
+}
+
+.hr-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
+    /* optional spacing under the HR + text */
+}
+
+::ng-deep .text-orange {
+    color: #ff7b00 !important;
+    text-decoration: none;
+}
+
+::ng-deep .text-orange:hover {
+    text-decoration: underline;
+    color: #ff7b00 !important;
+}
+
+.form-select {
+    font-weight: bold;
+}
+
+/*********************************************************/
+.orange-section {
+    background-color: #ff7b00;
+    height: 100px;
+    /* Adjust as needed */
+    border-radius: 10px;
+    margin-top: 40px;
+    z-index: 1;
+    position: relative;
+}
+
+
+.overlap-wrapper {
+    position: relative;
+    margin-top: -85px;
+    /* Pulls the filter box down */
+    z-index: 2;
+}
+
+.custom-filter-box {
+    border: 5px solid transparent;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    z-index: 3;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+/***********************/
+.select-no-border {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    background-color: transparent;
+    padding-left: 0;
+    /* Optional: if you want it flushed left */
+}
+
+/*************************/
+/******** Search Button ***/
+.btn-orange {
+    background-color: #ff7b00;
+    color: #fff;
+    border: none;
+}
+
+.btn-orange:hover {
+    background-color:#ff7b00;
+    color: #fff;
+}
+
+/************Cards***********************/
+
+.recipe-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+
+.recipe-card:hover {
+    transform: translateY(-5px);
+}
+
+.rating-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #fff;
+    color: #ff7b00;
+    padding: 4px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bi-clock {
+    color: #ff7b00;
+}
+
+
+
+/* ============================================================ */
+
+.scrollable-container {
+    max-height: 70vh;
+    overflow-y: auto;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+.recipe-card {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+    transition: all 0.3s ease;
+}
+
+.recipe-card:hover {
+    background-color: #f8f9fa;
+    transform: translateX(5px);
+}
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* ==================================================== */
+.bg-light-gray {
+    background-color: #f4f2f2;
+    color: #000;
+    padding-top: 40px;
+  }
+  
+  /* Scrollable wrapper including arrows */
+  .scrollable-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+  }
+  
+  /* Scroll buttons */
+  .scroll-btn {
+    background-color: #ff7b00;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    border-radius: 5px;
+    user-select: none;
+    transition: background-color 0.3s;
+    z-index: 10;
+  }
+  
+  .scroll-btn:hover {
+    background-color: #ff7b00;
+  }
+  
+  .scroll-btn.left {
+    margin-right: 10px;
+  }
+  
+  .scroll-btn.right {
+    margin-left: 10px;
+  }
+  
+  /* Scroll container for horizontal scrolling */
+  .scrollable-container {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 10px;
+    flex-grow: 1;
+  }
+  
+  /* Hide scrollbar but keep scrolling functionality */
+  .scrollable-container::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollable-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  /* Recipe card wrapper inline-block for horizontal layout */
+  .recipe-card-wrapper {
+    display: inline-block;
+    width: 280px;
+    margin-right: 16px;
+    vertical-align: top;
+  }
+  
+  /* Existing recipe card styling */
+  .recipe-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    height: 100%;
+  }
+  
+  
+  .recipe-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .position-relative {
+    position: relative;
+  }
+  
+  .rating-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #fff;
+    color: #ff7b00;
+    padding: 4px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .p-3 {
+    padding: 1rem;
+  }
+  
+  .fw-bold {
+    font-weight: 700;
+  }
+  
+  .text-muted {
+    color: #6c757d;
+  }
+  
+  .card-img {
+    border-radius: 12px 12px 0 0;
+    width: 100%;
+  }
+  
+  .bi-clock {
+    color: #ff7b00;
+  }
+
+
+
+
+
+
+
+
+
+/* ==================================================================================== */
+ 
+
+
+
+
+
+
+
+/* Scrollable Wrapper to position the arrows correctly */
+.scrollable-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center the scrollable area */
+    align-items: center;
+}
+
+/* Scrollable container where cards are placed */
+.scrollable-container {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+/* Scroll buttons for left and right navigation */
+.scroll-btn {
+    background-color: #ff7b00;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    width: 40px;
+    height: 70px;
+    cursor: pointer;
+    border-radius: 5px;
+    user-select: none;
+    transition: background-color 0.3s;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); /* Center vertically */
+    z-index: 10;
+}
+
+/* Position the left arrow outside the scrollable container */
+.scroll-btn.left {
+    left: 0;
+    margin-left: 50px;
+}
+
+/* Position the right arrow outside the scrollable container */
+.scroll-btn.right {
+    right: 0;
+    margin-right: 50px;
+}
+
+/* Recipe Card Wrapper Styling */
+.recipe-card-wrapper {
+    display: inline-block;
+    width: 280px;
+    margin-right: 16px;
+    vertical-align: top;
+}
+
+/* Recipe Card Styling */
+.recipe-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    height: 100%;
+}
+
+.recipe-card:hover {
+    transform: translateY(-5px);
+}
+
+.position-relative {
+    position: relative;
+}
+
+/* Rating Badge for Recipe Cards */
+.rating-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #fff;
+    color: #ff7b00;
+    padding: 4px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Padding and Text Styling */
+.p-3 {
+    padding: 1rem;
+}
+
+.fw-bold {
+    font-weight: 700;
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+.card-img {
+    border-radius: 12px 12px 0 0;
+    width: 100%;
+}
+
+.bi-clock {
+    color: #ff7b00;
+}
+
+/* Scrollable Container Custom Scrollbar */
+::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollable-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Responsive Adjustments for Smaller Screens */
+@media (max-width: 768px) {
+    .recipe-card-wrapper {
+        width: 250px;
+        margin-right: 12px;
+    }
+
+    .scroll-btn {
+        width: 35px;
+        height: 60px;
+        font-size: 1.2rem;
+    }
+}
+
+
+
+ /* ==========================================I will return again           =================================================== */
+.features-section {
+  background: url('A:/CLS Project/Last_Updated/public/black_background.jpg') repeat;
+  padding: 60px 30px;
+  color: white;
+  border-radius: 30px;
+  margin-top: 50px;
+  z-index: 1;  /*i will return*/
+  position: relative; /* i will return*/
+}
+
+.features-header {
+  display: flex;
+  justify-content: space-between;
+  align-items:start;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.left-text {
+  flex: 1 1 350px;
+  margin-left: 80px;
+}
+
+.left-text .sub {
+  color: white;
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.left-text .sub span{
+  color: #ff7b00;
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.left-text h1 {
+  font-size: 3rem;
+  line-height: 1.3;
+  font-weight: bold;
+}
+
+
+
+.feature-paragraph {
+  width: 90%;
+  border-left: #ff7b00 solid 3.5px;
+  padding-left: 10px;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  color: #ccc;
+  white-space: pre-line;
+}
+
+.features-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  background: white;
+  color: black;
+  padding: 20px;
+  width: 100%;
+  max-width: 420px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  text-align: center;
+  transition: all 0.3s ease;
+  opacity: 0;
+  transform: translateY(50px);
+  cursor: pointer;
+  margin-bottom: -220px;
+}
+
+.card:hover, .card.hover-animate {
+  transform: scale(1.05);
+  box-shadow: 0 20px 35px rgba(0,0,0,0.3);
+}
+.card:hover{
+  scale: 1.05;
+}
+.card.clicked {
+  animation: bounce 0.3s ease;
+.highlight {
+  color: #ff7b00;
+}
+
+.right-text {
+  margin-bottom: -80px;
+  flex: 1 1 350px;
+  color: #ccc;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+}
+
+.card.fade-in {
+  animation: fadeInUp 0.8s ease forwards;
+}
+.card.delay-1 {
+  animation-delay: 0.3s;
+}
+.card.delay-2 {
+  animation-delay: 0.6s;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(0.95); }
+  100% { transform: scale(1); }
+}
+
+@media (max-width: 768px) {
+  .features-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .features-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+}
+
+.left-text {
+  flex: 1 1 350px;
+  margin-left: 80px;
+}
+
+.left-text .sub {
+  color: white;
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.left-text .sub span {
+  color: #ff7b00;
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.left-text h1 {
+  font-size: 3rem;
+  line-height: 1.3;
+  font-weight: bold;
+}
+
+.feature-paragraph {
+  width: 90%;
+  border-left: #ff7b00 solid 3.5px;
+  padding-left: 10px;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  color: #ccc;
+  white-space: pre-line;
+}
+
+.right-text {
+  flex: 1 1 350px;
+  color: #ccc;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: left; /* Align text to the left */
+}
+
+.features-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  color: black;
+  padding: 20px;
+  width: 100%;
+  max-width: 420px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  text-align: center;
+  transition: all 0.3s ease;
+  opacity: 0;
+  transform: translateY(50px);
+  cursor: pointer;
+}
+
+.card:hover, .card.hover-animate {
+  transform: scale(1.05);
+  box-shadow: 0 20px 35px rgba(0,0,0,0.3);
+}
+
+.card.fade-in {
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.card.delay-1 {
+  animation-delay: 0.3s;
+}
+
+.card.delay-2 {
+  animation-delay: 0.6s;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Animation for fade-in */
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(0.95); }
+  100% { transform: scale(1); }
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .features-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .features-cards {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  /* Adjust text alignment for mobile */
+  .left-text {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .feature-paragraph {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+} 
+
+
+/* ============================================== Any questions =================================================== */
+
+.faq-section {
+  padding: 40px 20px;
+  background-color: white;
+  color: #000;
+  margin-top: 300px;
+}
+
+.faq-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ff7b00;
+  margin-bottom: 70px;
+}
+
+.faq-item {
+  margin: 15px 0;
+  border-bottom: 2px solid #ddd;
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between; /* This aligns the question text and the toggle to opposite ends */
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.faq-toggle {
+  font-size: 1.5rem;
+  color: #ff7b00;
+}
+
+.faq-question-text {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.faq-answer {
+  padding-left: 30px;
+  padding-top: 10px;
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+.faq-item.active .faq-question {
+  background-color: #ff7b00; /* Orange background when active */
+  color: white;
+}
+
+.faq-item.active .faq-toggle {
+  color: white; /* Change the toggle color to white when active */
+}
+
+.faq-item:hover .faq-question {
+  background-color: #f2f2f2; /* Light gray background when hovering */
+}
+
+
+.Fab-margin{
+     margin-bottom: 100px;
+}
+
+
+/* =================================== */
